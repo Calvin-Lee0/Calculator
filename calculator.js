@@ -17,6 +17,6 @@ function e()  {
 		d(eval(document.getElementById("d").value));
 		}
 	catch(err)  {
-		d("Error");
+		d("QUICK BAD MATHS");
 		}
 	}
