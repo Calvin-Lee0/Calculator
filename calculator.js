@@ -31,6 +31,12 @@ function t(val)  {
 	document.getElementById("d").value = document.getElementById("d").value * -1;
 	}
 
+//Percentage
+function p(val)  {
+	e();
+	document.getElementById("d").value = document.getElementById("d").value / 0.01;
+	}
+
 //Evaluate the equation
 function e()  {
 	try {
