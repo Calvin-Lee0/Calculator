@@ -16,6 +16,6 @@ function e()  {
 		d(eval(document.getElementById("d").value));
 		}
 	catch(err)  {
-		d("QUICK BAD MATHS");
+		d("that is bad boi");
 		}
 	}

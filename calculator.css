@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-image: url("atat.png")
+	}
 /*Calculator Box*/
 .box {
 	background-color: black;
@@ -9,7 +12,7 @@
 	border-radius: 10px;
 	position: relative;
 	top: 80px;
-	left: 40%;
+	margin: auto;
 	}
 
 /*Display*/
