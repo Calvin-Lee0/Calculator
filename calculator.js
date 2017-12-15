@@ -10,7 +10,13 @@ function v(val)  {
 	document.getElementById("d").value += val;
 	}
 
+
 //Rounding
+function b(val)  {
+	document.getElementById("d").value = Math.round(document.getElementById("d").value);
+	}
+
+//Rounding to nearest tenth
 function a(val)  {
 	document.getElementById("d").value = Math.round(document.getElementById("d").value * val) / val;
 	}
