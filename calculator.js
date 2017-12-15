@@ -1,13 +1,24 @@
 // JavaScript Document
 
-// Change Display
+//Change Display
 function d(val)  {
 	document.getElementById("d").value = val;
 	}
 	
-// Type numbers and operators
+//Type numbers and operators
 function v(val)  {
 	document.getElementById("d").value += val;
+	}
+
+
+//Rounding
+function b(val)  {
+	document.getElementById("d").value = Math.round(document.getElementById("d").value);
+	}
+
+//Rounding to nearest tenth
+function a(val)  {
+	document.getElementById("d").value = Math.round(document.getElementById("d").value * val) / val;
 	}
 
 //Evaluate the equation
@@ -16,6 +27,6 @@ function e()  {
 		d(eval(document.getElementById("d").value));
 		}
 	catch(err)  {
-		d("QUICK BAD MATHS");
+		d("that is bad boi");
 		}
 	}
