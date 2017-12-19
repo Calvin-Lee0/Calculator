@@ -25,6 +25,12 @@ function a(val)  {
 	document.getElementById("d").value = Math.round(document.getElementById("d").value * val) / val;
 	}
 
+//Squaring
+function o(val)  {
+	document.getElementById("d").value = (document.getElementById("d").value) * (document.getElementById("d").value);
+	}
+
+
 //Positive/negative
 function t(val)  {
 	e();
@@ -35,6 +41,11 @@ function t(val)  {
 function p(val)  {
 	e();
 	document.getElementById("d").value = document.getElementById("d").value / 0.01;
+	}
+
+//Undo percentage
+function y(val)  {
+	document.getElementById("d").value = document.getElementById("d").value * 0.01;
 	}
 
 //Evaluate the equation
